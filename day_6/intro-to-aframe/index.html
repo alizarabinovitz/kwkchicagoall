@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>AFRAME BASICS</title>
+    <script src="https://aframe.io/releases/0.6.1/aframe.min.js"></script>
+</head>
+
+<body>
+    <a-scene>
+        <a-assets>
+            <!--Images or audio that we will use later in our project-->
+            <img id="frank" src="https://assets3.thrillist.com/v1/image/2561558/size/tmg-slideshow_l.jpg">
+            <img id="sky" src="sky.jpg">
+            
+            <a-asset-item id="rubix-obj" src="rubix-cube-finished-v2.obj"></a-asset-item>
+            <a-asset-item id="rubix-mtl" src="rubix-cube-finished-v2.mtl"></a-asset-item>
+
+        </a-assets>
+        
+        <a-box material="src: #frank" depth="2" height="4" width="2" position="0 1 -5" rotation="0 45 0"></a-box>
+        <a-cone color="tomato" radius-bottom="2" radius-top="0.5" position="2 3 -3"></a-cone>
+        <a-sky material="src: #sky"></a-sky>
+
+        <a-entity position="0 10 0">
+            
+            <a-camera>
+                    <a-cursor></a-cursor>
+            </a-camera>
+        </a-entity>
+        
+        <a-obj-model src="#rubix-obj" mtl="#rubix-mtl" position="0 1 -5" scale="2 2 2"></a-obj-model>
+
+    </a-scene>
+</body>
+
+</html>

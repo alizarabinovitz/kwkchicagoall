@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://aframe.io/releases/0.6.0/aframe.min.js"></script>
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <a-scene id="scene">
+        <a-entity>
+            <a-camera>
+                <a-cursor></a-cursor>
+            </a-camera>
+        </a-entity>
+
+        <a-box id="box1" onclick="changeColor()" color="purple" position="0 1.6 -2" height="0.5" width="0.5" depth="0.5">
+            <!--with animations, not javascript version-->
+            <!--<a-animation attribute="color" to="tomato" begin="click" dur="1"></a-animation>-->
+        </a-box>
+        
+        <a-cone onclick="addSphere()" id="cone1" color="pink" position="2 1.6 -2"></a-cone>
+
+    </a-scene>
+</body>
+
+</html>
+Add Comment Collapse
+
+
+

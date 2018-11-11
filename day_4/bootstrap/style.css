@@ -1,0 +1,10 @@
+img {
+    width:100%;
+}
+
+#frank{
+    min-height:600px;
+    color:pink;
+    background-repeat:no-repeat;
+    background: url('https://perrystreetpalace.files.wordpress.com/2014/10/blackrainfrog2.png');
+}

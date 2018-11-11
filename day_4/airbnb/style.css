@@ -1,0 +1,100 @@
+#apartment{
+    min-height:800px;
+    background: url('https://a0.muscache.com/im/pictures/66731946/dcd6a0af_original.jpg?aki_policy=xx_large');
+}
+
+#name{
+    font-size: 50px;
+    font-family: "LL Brown", sans-serif;;
+    font-weight: bold;
+    color:#404040;
+    letter-spacing: -0.6px;
+    line-height: 44px;
+    padding-bottom: 6px;
+    padding-top: 6px;
+    word-wrap: break-word;
+    max-width: 535.984px;
+    max-height: 88px;
+    
+    border-top: thin #404040;
+}
+
+#profilePic{
+    width:80px;
+    height:80px;
+    border-radius:50%;
+}
+
+#profileName{
+    font-size:17px;
+    color:#787878;
+    font-family: "LL Brown", sans-serif;
+}
+
+#location{
+    font-size:17px;
+    color:#787878;
+    font-family: "LL Brown", sans-serif;
+}
+
+.card-title{
+    background:#404040;
+    padding-left:10px;
+    padding-top:20px;
+    color:#FFFFFF;
+    font-family: "LL Brown", sans-serif;
+}
+
+.checkIn{
+    font-family: "LL Brown", sans-serif;
+    color:#404040;
+    font-size:15px;
+}
+
+.list-group-item{
+    color:#909090;
+}
+
+.card{
+    border: thin solid #909090;
+    min-width:500px;
+    padding:10px;
+}
+
+#button{
+    background:#FA8072;
+    border: 0px solid;
+    display:block;
+    margin:0 auto;
+    position:relative;
+    color:#FFFFFF;
+    font-family: "LL Brown", sans-serif;
+    font-size:17px;
+}
+
+#topic{
+    font-family: "LL Brown", sans-serif;
+    color:#909090;
+    font-size:10px;
+    text-align:center;
+}
+
+#warning{
+    font-family: "LL Brown", sans-serif;
+    color:#404040;
+    font-size:17px;
+    font-weight: bold;
+}
+
+#stats{
+    font-family: "LL Brown", sans-serif;
+    color:#404040;
+    font-size:17px;
+}
+
+#description{
+    font-family: "LL Brown", sans-serif;
+    color:#787878;
+    font-size:17px;
+    font-weight: normal;
+}
